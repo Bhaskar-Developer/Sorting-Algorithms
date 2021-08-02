@@ -24,13 +24,15 @@ void swap(int* p,int* q) {
 int partition(int* arr, const int low, const int high) {
    int i{},pivot{}; 
    pivot = arr[high];
-   i = low-1; //initially -1
-   for(int j=low;j<high;j++) { //loop runs from low till high-1
+   i = low-1; //initially i is set to -1
+   for(int j=low;j<high;j++) { //this loop runs from low till high-1
       if(arr[j]<pivot) {
          i++;
          swap(&arr[i],&arr[j]);
       }  
    }
+   //At this point i and j have crossed each other
+   //We swap arr[i] with arr[high] i.e. we swap arr[i] with the pivot element
    swap(&arr[i+1],&arr[high]);
    return i+1;
 }

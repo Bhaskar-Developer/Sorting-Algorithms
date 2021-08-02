@@ -1,3 +1,4 @@
+Quick Sort algorithm is a sorting algorithm that uses the divide and Conquer approach.
 Quick Sort Algorithm is called as in place Algorithm
 
 In place algotrithm means that the is no additional space used
@@ -5,6 +6,7 @@ Hence, Space Complexity : O(1)
 Time Complexity: Worst Case - O(n2)
                  Average Case - O(nlogn)
 
+A randomized version of Quick Sort is used so that the time Complexity of O(nlogn) can be achieved.
 Quick Sort is the most preferred sorting algorithm and is hence used  in built in functions of CPP STL.
 
 It is preferred over Merge Sort as it is in-place sorting algorithm.

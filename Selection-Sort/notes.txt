@@ -1,0 +1,3 @@
+Selection Sort is a Sorting Algorithm
+
+Time Complexity:- O(n2) - quadratic

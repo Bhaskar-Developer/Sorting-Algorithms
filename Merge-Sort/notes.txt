@@ -1,0 +1,7 @@
+Merge Sort is an sorting algorithm that uses the Divide and Conquer approach.
+
+Time Complexity: Worst Case :- O(nlogn)
+
+Space Complexity:- O(n)
+
+Merge sort is preffered over Quick Sort if the Array to Sort is very big

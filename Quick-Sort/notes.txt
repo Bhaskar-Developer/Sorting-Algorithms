@@ -1,0 +1,10 @@
+Quick Sort Algorithm is called as in place Algorithm
+
+In place algotrithm means that the is no additional space used
+Hence, Space Complexity : O(1)
+Time Complexity: Worst Case - O(n2)
+                 Average Case - O(nlogn)
+
+Quick Sort is the most preferred sorting algorithm and is hence used  in built in functions of CPP STL.
+
+It is preferred over Merge Sort as it is in-place sorting algorithm.

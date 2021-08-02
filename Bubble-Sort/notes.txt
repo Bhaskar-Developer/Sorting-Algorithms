@@ -1,0 +1,4 @@
+Bubble Sort is the easiest sorting algorithm
+
+Time Complexity:- O(n2) - quadratic
+Space Complexity:- O(1)

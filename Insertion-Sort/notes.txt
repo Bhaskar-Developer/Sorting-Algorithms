@@ -1,0 +1,2 @@
+Time Complexity:-O(n2) - quadratic
+Space Complexity:-O(1) - no additional space used
